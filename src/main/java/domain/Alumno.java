@@ -18,10 +18,6 @@ public class Alumno {
         this.nombre = nombre;
         this.materiasAprobadas = aprobadas;
     }
-
-    public void aprobarMaterias(Materia materia) {
-        this.materiasAprobadas.add(materia);
-    }
     public void aprobarMaterias(List<Materia> materias) {
         this.materiasAprobadas.addAll(materias);
     }

@@ -10,7 +10,7 @@ public class TestAlumnos {
     public void testAprobarMateria() {
         Alumno alumno = new Alumno("1234", "Juan");
         Materia analisis1 = new Materia();
-        alumno.aprobarMaterias(analisis1);
+        alumno.aprobarMaterias(List.of(analisis1));
         List<Materia> materiasAprobadas = new ArrayList<>();
         materiasAprobadas.add(analisis1);
         Assert.assertEquals(materiasAprobadas, alumno.getMateriasAprobadas());
