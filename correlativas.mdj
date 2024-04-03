@@ -804,7 +804,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1047,
-									"top": 201,
+									"top": 207,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -825,7 +825,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 1062,
-									"top": 201,
+									"top": 207,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -846,7 +846,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1017,
-									"top": 202,
+									"top": 208,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -863,8 +863,7 @@
 							"tail": {
 								"$ref": "AAAAAAGOm16FLCJj2+w="
 							},
-							"lineStyle": 1,
-							"points": "969:214;1032:208;1032:359",
+							"points": "968:214;1032:214;1032:360",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGOm3dtzVEWu2M="
@@ -957,8 +956,7 @@
 							"tail": {
 								"$ref": "AAAAAAGOm15gYyI5TB0="
 							},
-							"lineStyle": 1,
-							"points": "903:408;848:408;848:306",
+							"points": "904:408;848:408;848:305",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGOm3fCc1Eq6+0="
@@ -992,7 +990,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 576,
-									"top": 187,
+									"top": 196,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1012,8 +1010,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 577,
-									"top": 172,
+									"left": 576,
+									"top": 181,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1033,8 +1031,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 575,
-									"top": 216,
+									"left": 576,
+									"top": 226,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1051,8 +1049,7 @@
 							"tail": {
 								"$ref": "AAAAAAGOm1wBnSH+wgE="
 							},
-							"lineStyle": 1,
-							"points": "577:343;576:208;728:217",
+							"points": "576:344;576:217;729:217",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGOm3hig1FFxTs="
