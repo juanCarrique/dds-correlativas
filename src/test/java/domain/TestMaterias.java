@@ -1,8 +1,7 @@
 package domain;
 
-import org.junit.Assert;
-import org.junit.Test;
-
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class TestMaterias {
@@ -14,7 +13,7 @@ public class TestMaterias {
         Alumno juan = new Alumno("1234", "Juan");
         juan.aprobarMaterias(List.of(analisis1));
 
-        Assert.assertTrue(analisis2.controlCorrelativas(juan));
+        Assertions.assertTrue(analisis2.controlCorrelativas(juan));
     }
 
     @Test
@@ -24,6 +23,6 @@ public class TestMaterias {
 
         Alumno juan = new Alumno("1234", "Juan");
 
-        Assert.assertFalse(analisis2.controlCorrelativas(juan));
+        Assertions.assertFalse(analisis2.controlCorrelativas(juan));
     }
 }

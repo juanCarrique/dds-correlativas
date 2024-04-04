@@ -1,6 +1,7 @@
 package domain;
-import org.junit.Test;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +14,7 @@ public class TestAlumnos {
         alumno.aprobarMaterias(List.of(analisis1));
         List<Materia> materiasAprobadas = new ArrayList<>();
         materiasAprobadas.add(analisis1);
-        Assert.assertEquals(materiasAprobadas, alumno.getMateriasAprobadas());
+
+        Assertions.assertEquals(materiasAprobadas, alumno.getMateriasAprobadas());
     }
 }

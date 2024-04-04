@@ -1,8 +1,7 @@
 package domain;
 
-
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class TestInscripciones {
@@ -13,7 +12,7 @@ public class TestInscripciones {
 
         Alumno juan = new Alumno("1234", "Juan");
 
-        Assert.assertTrue(juan.inscribirse(List.of(analisis1, algebra)));
+        Assertions.assertTrue(juan.inscribirse(List.of(analisis1, algebra)));
     }
 
     @Test
@@ -25,7 +24,7 @@ public class TestInscripciones {
         Alumno juan = new Alumno("1234", "Juan");
         juan.aprobarMaterias(List.of(analisis1, algebra));
 
-        Assert.assertTrue(juan.inscribirse(List.of(analisis2)));
+        Assertions.assertTrue(juan.inscribirse(List.of(analisis2)));
     }
 
     @Test
@@ -36,6 +35,6 @@ public class TestInscripciones {
 
         Alumno juan = new Alumno("1234", "Juan");
 
-        Assert.assertFalse(juan.inscribirse(List.of(analisis2)));
+        Assertions.assertFalse(juan.inscribirse(List.of(analisis2)));
     }
 }
