@@ -16,5 +16,13 @@ public class Inscripcion {
         }
         return true;
     }
+    public boolean estaAprobada(Alumno alumno) {
+        for (Materia materia : this.materiasInscripcion) {
+            if (!materia.controlCorrelativas(alumno)) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
